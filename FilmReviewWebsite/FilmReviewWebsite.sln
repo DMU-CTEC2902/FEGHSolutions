@@ -7,10 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilmReviewWebsite", "FilmRe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilmReviewWebsite.Tests", "FilmReviewWebsite.Tests\FilmReviewWebsite.Tests.csproj", "{F6B8007D-515D-4A57-B508-12D7F9158481}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EliseuProject", "EliseuProject\EliseuProject.csproj", "{8D037F8A-16C2-4A9C-B10E-D4479F0A2B72}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EliseuProject.Tests", "EliseuProject.Tests\EliseuProject.Tests.csproj", "{489D37D6-0AB2-4857-9A2D-E454A4A0EA5A}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,14 +21,6 @@ Global
 		{F6B8007D-515D-4A57-B508-12D7F9158481}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6B8007D-515D-4A57-B508-12D7F9158481}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6B8007D-515D-4A57-B508-12D7F9158481}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8D037F8A-16C2-4A9C-B10E-D4479F0A2B72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8D037F8A-16C2-4A9C-B10E-D4479F0A2B72}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8D037F8A-16C2-4A9C-B10E-D4479F0A2B72}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8D037F8A-16C2-4A9C-B10E-D4479F0A2B72}.Release|Any CPU.Build.0 = Release|Any CPU
-		{489D37D6-0AB2-4857-9A2D-E454A4A0EA5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{489D37D6-0AB2-4857-9A2D-E454A4A0EA5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{489D37D6-0AB2-4857-9A2D-E454A4A0EA5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{489D37D6-0AB2-4857-9A2D-E454A4A0EA5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
