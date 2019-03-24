@@ -8,6 +8,7 @@ namespace FilmReview.Models
 {
     public class FilmDataInitialiser : DropCreateDatabaseAlways<FilmContext>
     {
+        public static string filmTitle = "A Funny Film";
         protected override void Seed(FilmContext context)
         {
             Genre genre1 = new Genre();
@@ -19,7 +20,7 @@ namespace FilmReview.Models
             Film film1 = new Film();
             film1.FilmId = 1;
             film1.GenreId = 1;
-            film1.Title = "A Funny Film";
+            film1.Title = filmTitle;
             film1.Description = "This is a funny film";
             film1.Length = 1.5;
             film1.Name = genre1;
