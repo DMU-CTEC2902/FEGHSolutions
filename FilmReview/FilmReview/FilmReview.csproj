@@ -219,6 +219,7 @@
     <Content Include="App_Data\FilmReview.mdf" />
     <Content Include="App_Data\FilmReview_log.ldf">
       <DependentUpon>FilmReview.mdf</DependentUpon>
+
     </Content>
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
