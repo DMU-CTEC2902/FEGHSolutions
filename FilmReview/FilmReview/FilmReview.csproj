@@ -196,6 +196,7 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\ActorsController.cs" />
+    <Compile Include="Controllers\DirectorsController.cs" />
     <Compile Include="Controllers\FilmsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
@@ -211,9 +212,14 @@
     <Compile Include="Migrations\201903271616139_AddActors.Designer.cs">
       <DependentUpon>201903271616139_AddActors.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201903271800067_AddedDirector.cs" />
+    <Compile Include="Migrations\201903271800067_AddedDirector.Designer.cs">
+      <DependentUpon>201903271800067_AddedDirector.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Actor.cs" />
+    <Compile Include="Models\Director.cs" />
     <Compile Include="Models\Film.cs" />
     <Compile Include="Models\FilmContext.cs" />
     <Compile Include="Models\FilmData.cs" />
@@ -225,7 +231,6 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
-
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -306,6 +311,11 @@
     <Content Include="Views\Actors\Details.cshtml" />
     <Content Include="Views\Actors\Edit.cshtml" />
     <Content Include="Views\Actors\Index.cshtml" />
+    <Content Include="Views\Directors\Create.cshtml" />
+    <Content Include="Views\Directors\Delete.cshtml" />
+    <Content Include="Views\Directors\Details.cshtml" />
+    <Content Include="Views\Directors\Edit.cshtml" />
+    <Content Include="Views\Directors\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -329,6 +339,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201903271616139_AddActors.resx">
       <DependentUpon>201903271616139_AddActors.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201903271800067_AddedDirector.resx">
+      <DependentUpon>201903271800067_AddedDirector.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
