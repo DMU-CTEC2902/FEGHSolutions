@@ -12,7 +12,7 @@ namespace FilmReview.Models
         {
             Genre genre1 = new Genre();
             genre1.GenreId = 1;
-            genre1.Name = "Comsdy";
+            genre1.Name = "Comedy";
 
             context.Genres.Add(genre1);
 
@@ -28,6 +28,19 @@ namespace FilmReview.Models
             film1.ReleaseDate = "01-01-2000";
 
             context.Films.Add(film1);
+
+            Film film2 = new Film();
+            film2.FilmId = 1;
+            film2.GenreId = 1;
+            film2.Title = "A Funny Film";
+            film2.Description = "This is a funny film";
+            film2.Length = 1.5;
+            film2.Name = genre1;
+            film2.Director = "A Bloke";
+            film2.Actor = "A different Bloke";
+            film2.ReleaseDate = "01-01-2000";
+
+            context.Films.Add(film2);
 
             Review review1 = new Review();
             review1.ReviewId = 1;
