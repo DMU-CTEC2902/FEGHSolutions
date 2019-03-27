@@ -9,7 +9,7 @@ namespace FilmReview.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            AutomaticMigrationsEnabled = true;
         }
 
         protected override void Seed(FilmReview.Models.FilmContext context)
