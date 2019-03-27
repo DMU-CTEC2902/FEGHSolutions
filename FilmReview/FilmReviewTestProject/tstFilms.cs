@@ -62,7 +62,7 @@ namespace FilmReviewTestProject
             //create an instance of the class we want to create 
             clsFilm AnFilm = new clsFilm();
             //create some test data to assign to the property
-            DateTime TestData = DateTime.Now.Date;
+            string TestData = "Jaws";
             //assign the data to the proerty
             AnFilm.FilmDescription = TestData;
             //test to see that the two values are the same 

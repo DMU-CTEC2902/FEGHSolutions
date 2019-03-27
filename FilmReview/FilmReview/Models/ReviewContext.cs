@@ -20,6 +20,8 @@ namespace FilmReview.Models
         {
         }
 
+        public DbSet<Genre> Genres { get; set; }
+
         public DbSet<Review> Reviews { get; set; }
 
         public DbSet<Film> Films { get; set; }

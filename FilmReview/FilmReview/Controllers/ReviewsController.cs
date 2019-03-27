@@ -12,7 +12,7 @@ namespace FilmReview.Controllers
 {
     public class ReviewsController : Controller
     {
-        private ReviewContext db = new ReviewContext();
+        private FilmContext db = new FilmContext();
 
         // GET: Reviews
         public ActionResult Index()
