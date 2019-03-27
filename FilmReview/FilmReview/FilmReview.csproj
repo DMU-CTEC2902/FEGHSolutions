@@ -216,9 +216,10 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\FilmReviewDatabase.mdf" />
-    <Content Include="App_Data\FilmReviewDatabase_log.ldf">
-      <DependentUpon>FilmReviewDatabase.mdf</DependentUpon>
+    <Content Include="App_Data\FilmReview.mdf" />
+    <Content Include="App_Data\FilmReview_log.ldf">
+      <DependentUpon>FilmReview.mdf</DependentUpon>
+
     </Content>
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
