@@ -12,7 +12,7 @@ namespace FilmReview.Models
         {
             Genre genre1 = new Genre();
             genre1.GenreId = 1;
-            genre1.Name = "Comsdy";
+            genre1.Name = "Comedy";
 
             context.Genres.Add(genre1);
 
@@ -45,6 +45,13 @@ namespace FilmReview.Models
             actor1.Gender = "Male";
 
             context.Actors.Add(actor1);
+
+            Director director1 = new Director();
+            director1.DirectorId = 1;
+            director1.DirectorName = "David Seaman";
+            director1.Age = 46;
+
+            context.Directors.Add(director1);
 
             base.Seed(context);
         }
