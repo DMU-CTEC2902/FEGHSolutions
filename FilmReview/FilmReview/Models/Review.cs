@@ -11,7 +11,6 @@ namespace FilmReview.Models
         public virtual int FilmId { get; set; }
         public virtual Film Title { get; set; }
         public virtual string MainReview { get; set; }
-        public virtual int Score { get; set; }
-
+        public virtual double Score { get; set; }
     }
 }
