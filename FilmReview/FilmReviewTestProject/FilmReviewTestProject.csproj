@@ -52,10 +52,12 @@
     <Compile Include="clsActor.cs" />
     <Compile Include="clsDirector.cs" />
     <Compile Include="clsFilm.cs" />
+    <Compile Include="clsReviews.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="tstActor.cs" />
     <Compile Include="tstDirector.cs" />
     <Compile Include="tstFilms.cs" />
+    <Compile Include="tstReviews.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
