@@ -145,17 +145,125 @@ namespace FilmReview.Models
             review1.FilmId = 1;
             review1.Title = film1;
             review1.MainReview = "This film was funny";
-            review1.Score = 3.5;
+            review1.Score = 4.5;
 
             context.Reviews.Add(review1);
+
+            Review review2 = new Review();
+            review2.ReviewId = 2;
+            review2.FilmId = 2;
+            review2.Title = film2;
+            review2.MainReview = "This film was awful";
+            review2.Score = 1.5;
+
+            context.Reviews.Add(review2);
+
+            Review review3 = new Review();
+            review3.ReviewId = 3;
+            review3.FilmId = 2;
+            review3.Title = film1;
+            review3.MainReview = "This film was amazing";
+            review3.Score = 4.0;
+
+            context.Reviews.Add(review3);
+
+            Review review4 = new Review();
+            review4.ReviewId = 4;
+            review4.FilmId = 3;
+            review4.Title = film3;
+            review4.MainReview = "This film was terrific, worth every penny";
+            review4.Score = 4.5;
+
+            context.Reviews.Add(review4);
+
+            Review review5 = new Review();
+            review5.ReviewId = 5;
+            review5.FilmId = 2;
+            review5.Title = film3;
+            review5.MainReview = "This film was OK";
+            review5.Score = 3.0;
+
+            context.Reviews.Add(review5);
+
+            Review review6 = new Review();
+            review6.ReviewId = 6;
+            review6.FilmId = 4;
+            review6.Title = film3;
+            review6.MainReview = "This film was alright";
+            review6.Score = 3.0;
+
+            context.Reviews.Add(review6);
+
+            Review review7 = new Review();
+            review7.ReviewId = 7;
+            review7.FilmId = 5;
+            review7.Title = film3;
+            review7.MainReview = "This film was completley and utterly terrible";
+            review7.Score = 1.5;
+
+            context.Reviews.Add(review4);
 
             Actor actor1 = new Actor();
             actor1.ActorId = 1;
             actor1.ActorName = "Chris Hemsworth";
-            actor1.Age = 35;
+            actor1.Age = 32;
             actor1.Gender = "Male";
 
             context.Actors.Add(actor1);
+
+            Actor actor2 = new Actor();
+            actor2.ActorId = 2;
+            actor2.ActorName = "Bradd Pitt";
+            actor2.Age = 45;
+            actor2.Gender = "Male";
+
+            context.Actors.Add(actor2);
+
+            Actor actor3 = new Actor();
+            actor3.ActorId = 3;
+            actor3.ActorName = "Daniel Radcliffe";
+            actor3.Age = 31;
+            actor3.Gender = "Male";
+
+            context.Actors.Add(actor3);
+
+            Actor actor4 = new Actor();
+            actor4.ActorId = 4;
+            actor4.ActorName = "Tom Hanks";
+            actor4.Age = 55;
+            actor4.Gender = "Male";
+
+            context.Actors.Add(actor4);
+
+
+            Actor actor5 = new Actor();
+            actor5.ActorId = 5;
+            actor5.ActorName = "Sofia Sald";
+            actor5.Age = 39;
+            actor5.Gender = "Female";
+
+            context.Actors.Add(actor5);
+
+
+            Actor actor6 = new Actor();
+            actor6.ActorId = 6;
+            actor6.ActorName = "Eliseu Gomes";
+            actor6.Age = 40;
+            actor6.Gender = "Male";
+
+            context.Actors.Add(actor6);
+
+
+            Actor actor7 = new Actor();
+            actor7.ActorId = 7;
+            actor7.ActorName = "Clive Colde";
+            actor7.Age = 19;
+            actor7.Gender = "Male";
+
+            context.Actors.Add(actor7);
+
+
+
 
             Director director1 = new Director();
             director1.DirectorId = 1;
@@ -163,6 +271,34 @@ namespace FilmReview.Models
             director1.Age = 46;
 
             context.Directors.Add(director1);
+
+            Director director2 = new Director();
+            director2.DirectorId = 2;
+            director2.DirectorName = "Ronaldo Fabrice";
+            director2.Age = 24;
+
+            context.Directors.Add(director2);
+
+            Director director3 = new Director();
+            director3.DirectorId = 3;
+            director3.DirectorName = "George Wolfman";
+            director3.Age = 70;
+
+            context.Directors.Add(director3);
+
+            Director director4 = new Director();
+            director4.DirectorId = 4;
+            director4.DirectorName = "Sheperd Faldie";
+            director4.Age = 65;
+
+            context.Directors.Add(director4);
+
+            Director director5 = new Director();
+            director5.DirectorId = 5;
+            director5.DirectorName = "Faheem Yofu";
+            director5.Age = 25;
+
+            context.Directors.Add(director5);
 
             base.Seed(context);
         }
